@@ -18,7 +18,7 @@ author:
 
 At home I've got more than one wifi network.  No real reason, except that I've got more than one brand of wireless router and so I've set up the 802.11ac networks with a different SSID than the older 802.11n networks. 
 
-Whenever my Macbook falls off the network (coming back online, getting out of and back into range, etc), I noticed that the network connection defaults to the slower SSID.  But my preference would be to hop back onto the faster network.
+Whenever my MacBook falls off the network (coming back online, getting out of and back into range, etc), I noticed that the network connection defaults to the slower SSID.  But my preference would be to hop back onto the faster network.
 
 This is an easy fix:  for some reason I've gotten my newer network listed lower in the list of Preferred Networks in `System Preferences >> Network >> Wi-Fi >> Advanced >> Wi-Fi` and I just need to drag it up to the top of the list.
 
