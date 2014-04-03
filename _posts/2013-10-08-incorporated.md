@@ -8,11 +8,11 @@ cover_image: blog-cover.jpg
 excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
 author:
-  name: Karri Saarinen
-  twitter: karrisaarinen
-  gplus: 100687498195339762535 
-  bio: Co-founder, Design
-  image: ks.png
+  name: Paul Thaden
+  twitter: pthaden
+  gplus: 111502137181170252947 
+  bio: Dad to twin boys and twin girls; Retooling in my 40s around front-end dev and JavaScript; Oracle CX Apps Sales Consultant; all-around guy
+  image: Avatar.png
 ---
 
 Incorporated provides a great typography, responsive design, author details, semantic markup and more.
