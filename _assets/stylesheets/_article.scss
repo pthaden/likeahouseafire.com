@@ -17,6 +17,16 @@ article {
         }
     }
 
+    .social > div {
+        vertical-align: top;
+    }
+    .fb-like {
+      vertical-align: top;
+    }
+    .fb_iframe_widget span {
+        vertical-align: top !important;
+    }
+
     .container > footer {
         border-top:1px solid #ddd;
         border-bottom:1px solid #ddd;
@@ -44,10 +54,10 @@ article {
     address {
         margin:0;
         font-size:0.9em;
-        max-height:48px;
+        max-height:128px;
         
         p {
-            margin:0;
+            margin:0 0 0 84px;
             display:inline-block;
         }
 
@@ -56,8 +66,8 @@ article {
             width: 64px;
             height: 64px;
             margin: 0 20px 0 0;
-            display: inline-block;
-            margin-top: -28px;
+            position: absolute;
+            
         }       
         
         .follow {
