@@ -14,8 +14,8 @@ inc:
   about_link:   http://likeahouseafire.com/about/
   
   # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
+  #product_link: http://incorporated.sendtoinc.com/
+  #tagline:      "Get a modern blog for your company"
   
   # Comments
   disqus:
