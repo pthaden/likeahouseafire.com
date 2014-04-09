@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Retracing My Steps in SSIDs
-subtitle: "Oh the places you've been"
+title: Things Learned While Installing the RightNowCSC Module
+subtitle: "ATG / RightNow integration"
 cover_image: WiFi_System_Preferences.png
 
 excerpt: "My wifi card gets around."
