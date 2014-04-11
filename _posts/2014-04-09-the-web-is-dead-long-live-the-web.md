@@ -6,7 +6,7 @@ cover_image: bill_appletons_mobile_architecture.jpg
 
 excerpt: "I love the Ignite format for presentations, where you have to get your point across in five minutes with 20 slides that advance automatically every 15 seconds. Bill Appleton made a good point with his Fluent 2014 Ignite..."
 
-tags: Dev REST
+tags: [Dev, REST]
 
 author:
   name: Paul Thaden
