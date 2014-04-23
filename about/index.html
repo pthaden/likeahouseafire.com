@@ -21,8 +21,21 @@ layout: base
     </section>
 </div>
 
+<article class="container">
+   <section class="pagination">
+      <div>
+          <p>The views expressed on this blog are my own and do not necessarily reflect the views of Oracle.</p>
+      </div>
+   </section>
+</article> 
 
 <article class="container">
+   <section class="pagination">
+        <div>
+            <p>The views expressed on this blog are my own and do not necessarily reflect the views of Oracle.</p>
+        </div>
+     </section>
+
 {% for post in paginator.posts %}
   {% unless post.draft %}
     <section class="index">
