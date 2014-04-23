@@ -4,7 +4,7 @@ layout: post
 title: The First iPhone
 cover_image: very-early-iphone.jpg
 
-excerpt: "From an story on NPR, check out this photo of one of the first iPhone prototypes..."
+excerpt: "From a story on NPR, check out this photo of one of the first iPhone prototypes..."
 
 tags: iPhone
 
@@ -16,7 +16,7 @@ author:
   image: Avatar.png
 ---
 
-From an [story on NPR](http://www.npr.org/blogs/alltechconsidered/2014/03/26/294877279/from-the-birth-of-the-iphone-to-an-era-of-lawsuits), check out this photo of one of the first iPhone prototypes:
+From a [story on NPR](http://www.npr.org/blogs/alltechconsidered/2014/03/26/294877279/from-the-birth-of-the-iphone-to-an-era-of-lawsuits), check out this photo of one of the first iPhone prototypes:
 
 <div class="full zoomable"><img src="/images/very-early-iphone.jpg"></div>
 
