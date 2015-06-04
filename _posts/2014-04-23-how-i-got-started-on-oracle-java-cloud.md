@@ -18,11 +18,11 @@ author:
 
 Thought to type up how I got NetBeans deploying to Java Cloud today.  
 
-There are some [good videos](https://cloud.oracle.com/videos?subcatID=1383678927161) buried under the Resources menu, along with a few other good resources in there.  I'm kicking myself, because I didn't stumble onto these resources until I saw them on the demo `welcome-app` that gets deployed by default when your Java Cloud gets provisioned. This despite the well-labeled `Resources` menu at the top of the cloud.oracle.com page that literally pointed at these resources.
+There are some [good videos](https://cloud.oracle.com/videos?subcatID=1383678927161) buried under the `Resources` menu at [cloud.oracle.com](https://cloud.oracle.com/home), along with a few other good resources in there.  I'm kicking myself, because I didn't stumble onto these resources until I saw them on the demo app that gets deployed by default when your Java Cloud gets provisioned. This despite the well-labeled Resources menu at the top of the Cloud home page that literally pointed at these resources.
 
 Resources.  Who knew?
 
-Scroll down past the customer stories and you'll find some short vignettes such as:
+Scroll down past the customer stories videos and you'll find some short vignettes such as:
 
 #####Getting Started with the Oracle Java Cloud Service
 <iframe width="560" height="315" src="//www.youtube.com/embed/WiSiwP1O0Jc" frameborder="0"> </iframe>
@@ -73,7 +73,7 @@ You can also use this console UI to deploy an app's WAR or EAR file by hand, ass
 ##Downloading the SDK and configuring NetBeans
 There are [Oracle Cloud plugins](http://www.oracle.com/technetwork/topics/cloud/downloads/index.html) for NetBeans, JDeveloper and Eclipse to enable deploying directly to the cloud.  I'll walk through the steps that worked for me in NetBeans 8.0 for Mac. 
 
-First, install the plugin via `Tools >> Plugins >> Available Plugins`.  Select the `Oracle Cloud` plugin in the Java EE category and click `Install`.
+First, install the plugin into NetBeans via `Tools >> Plugins >> Available Plugins`.  Select the `Oracle Cloud` plugin in the Java EE category and click `Install`.
 
 Next, you need the Oracle Cloud SDK installed on your harddrive.  You can get to it from the links at `cloud.oracle.com >> Downloads` or from [this direct link](http://www.oracle.com/technetwork/topics/cloud/downloads/index.html#cloudsdk).  I chose the `oracle-javacloud-sdk-14100.zip` SDK because my Java Cloud service is running version 14.1.0.0.0 (you can find this stat in the Additional Information section at the bottom of your Java trial My Services Overview page).  Unzip this SDK into a folder on your harddrive and have it ready for the next step. 
 
