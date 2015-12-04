@@ -6,7 +6,7 @@ title: Create a Stock Ticker WebService in Oracle Sales Cloud R9
 
 excerpt: "How to hook up a Sales Cloud to an external SOAP Web Service"
 
-tags: Sales Cloud, Web Services
+tags: [Sales Cloud, Web Services]
 
 author:
   name: Paul Thaden

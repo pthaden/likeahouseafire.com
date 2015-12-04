@@ -6,7 +6,7 @@ cover_image: automator_javascript_error.jpg
 
 excerpt: "The action “Run AppleScript” encountered an error...."
 
-tags: [Dev, REST]
+tags: [Apple, Dev]
 
 author:
   name: Paul Thaden

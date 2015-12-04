@@ -6,7 +6,7 @@ title: How do you add a play/pause bar in Swift?
 
 excerpt: "So let's say you're building a iOS app that plays back an audio file, perhaps as an assignment for..."
 
-tags: iPhone
+tags: [iOS, Swift]
 
 author:
   name: Paul Thaden

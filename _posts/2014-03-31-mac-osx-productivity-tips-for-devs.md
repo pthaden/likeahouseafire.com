@@ -7,6 +7,8 @@ cover_image: Mac_OSX_Prod_Tips_for_Dev.png
 
 excerpt: "If you can get over the affected method acting and stilted banter between two people pretending to be completely intrigued..."
 
+tags: [Dev, Mac]
+
 author:
   name: Paul Thaden
   twitter: pthaden

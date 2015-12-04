@@ -7,6 +7,8 @@ cover_image: WiFi_System_Preferences.png
 
 excerpt: "My wifi card gets around."
 
+tags: [Mac]
+
 author:
   name: Paul Thaden
   twitter: pthaden

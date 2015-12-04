@@ -6,7 +6,7 @@ cover_image: Java_Cloud_Java_PaaS.jpg
 
 excerpt: "Thought to type up how I got NetBeans deploying to Java Cloud today.  There are some..."
 
-tags: iPhone
+tags: [Oracle Cloud]
 
 author:
   name: Paul Thaden
