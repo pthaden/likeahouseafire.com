@@ -74,6 +74,9 @@ port:        4000
 baseurl:     /
 lsi:         false
 
+gems:
+  - jekyll-archives
+
 maruku:
   use_tex:    false
   use_divs:   false
@@ -123,3 +126,17 @@ assets:
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false
+
+
+jekyll-archives:
+  enabled: 
+    - year
+    - month
+    - day
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

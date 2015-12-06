@@ -1,0 +1,47 @@
+---
+layout: base
+id: archive
+---
+{% if page.cover_image %}
+<div class="article-cover">
+    <div>
+        <img src="/images/{{ page.cover_image }}" class="image">
+    </div>
+</div>
+{% endif %}
+<article>
+
+    <div class="container">
+        <header>
+              {% if page.type == 'year' %}
+                  <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
+                {% elsif page.type == 'month' %}
+                  <h1>Archive of posts from {{ page.date | date: "%B %Y" }}</h1>
+                {% elsif page.type == 'day' %}
+                  <h1>Archive of posts from {{ page.date | date: "%B %d, %Y" }}</h1>
+                {% endif %}
+
+            
+
+        </header>
+
+
+  {% for post in page.posts %}
+  <section class="index">
+    <time style="color:#666; font-size:14px;" datetime='{{post.date | date: "%Y-%m-%d"}}'>
+      {{post.date | date: "%m/%d/%y"}}
+    </time> 
+    <h2 class="title"><a class="archive_list_article_link" href='{{post.url | prepend: site.baseurl}}'>{{post.title}}</a></h2>
+    <p class="summary">{{post.summary}}
+    <div class="tags">
+      {% for tag in post.tags %}
+        <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    </p>
+    </section>
+  {% endfor %}
+
+
+    </div>
+</article>
