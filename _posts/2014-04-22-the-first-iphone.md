@@ -6,7 +6,7 @@ cover_image: very-early-iphone.jpg
 
 excerpt: "From a story on NPR, check out this photo of one of the first iPhone prototypes..."
 
-tags: iPhone
+tags: [iPhone]
 
 author:
   name: Paul Thaden
