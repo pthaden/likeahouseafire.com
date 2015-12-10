@@ -84,3 +84,37 @@ body.nav-hidden {
     }
 }
 
+#post-nav {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  display: block;
+
+  .previous-post {
+    float: left;
+  }
+
+  .next-post {
+    display: block;
+    float: right;
+  }
+}
+
+/* Clearfix hack from http://css-tricks.com/snippets/css/clear-fix/ */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+
+
+
+
