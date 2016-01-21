@@ -2,6 +2,7 @@ inc:
   # Blog Information
   title:        "Like A House Afire"
   subtitle:     "Like all get out"
+  byline:  "a blog by Paul Thaden"
   cover_image:  dump_truck_blur.jpg
   logo:         Avatar.png
   
@@ -42,6 +43,7 @@ inc:
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://www.likeahouseafire.com
+description:        "a blog by Paul Thaden"
 source:      .
 destination: ./_site
 plugins:     ./_plugins
