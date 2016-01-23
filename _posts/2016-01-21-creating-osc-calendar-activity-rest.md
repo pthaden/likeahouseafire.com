@@ -3,7 +3,7 @@ layout: post
 
 title: "Creating Oracle Sales Cloud Calendar Activities Via APEX REST Calls"
 
-excerpt: "Notes gleaned from building APEX RESTful calls to into Fusion"
+excerpt: "Notes gleaned from building APEX RESTful calls into Fusion"
 
 tags: [APEX, Sales Cloud, Dev]
 
