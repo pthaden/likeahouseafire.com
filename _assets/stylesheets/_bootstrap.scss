@@ -63,10 +63,13 @@ mark {
   color: #000;
 }
 code,
-kbd,
 pre,
 samp {
   font-family: monospace, serif;
+  font-size: 1em;
+}
+kbd {
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
   font-size: 1em;
 }
 pre {
