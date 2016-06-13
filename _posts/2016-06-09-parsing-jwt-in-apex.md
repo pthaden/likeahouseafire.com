@@ -19,7 +19,7 @@ The [JSON Web Token (JWT) Sales Cloud can generate](https://cloud.oracle.com/dev
 
 But the JWT is more than a security tool. Buried inside the encoded token are JSON objects with details about the claims it represents. One of the data elements that Sales Cloud sends over is the logged-in user name.
 
-On a recent project we wanted this user name in the APEX app we were writing to extend Sales Cloud. We thought it'd be nice to use in the UI wherever the `&APP_USER.` application item would normally show. We also needed it to stripe the rows of our APEX database with a user details, so that the locally persisted data history wouldn't mix in with other users' history.
+On a recent project we wanted this user name in the APEX app we were writing to extend Sales Cloud. We thought it'd be nice to use in the UI wherever the `&APP_USER.` application item would normally show. We also needed it to stripe the rows of our APEX database with a user's details, so that the locally persisted data history wouldn't mix in with other users' history.
 
 ##Getting to know the JWT
 
