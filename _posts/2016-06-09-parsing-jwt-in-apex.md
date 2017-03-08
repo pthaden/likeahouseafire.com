@@ -5,7 +5,7 @@ title: "Parsing a Sales Cloud JWT after passing it into APEX"
 
 excerpt: "Decoding the Java Web Token from Sales Cloud so that we can use it in APEX application items"
 
-tags: [APEX, PL/SQL, Dev]
+tags: [APEX, PLSQL, Dev]
 
 author:
   name: Paul Thaden
