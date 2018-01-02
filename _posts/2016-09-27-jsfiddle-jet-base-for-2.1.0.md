@@ -15,6 +15,10 @@ author:
   image: Avatar.png
 ---
 
+[Update 01-Jan-2018:  new 4.1.0 templates for [CodePen](https://codepen.io/pthaden/pen/PEjWyo) and [JSFiddle](https://jsfiddle.net/pthaden/h77Logno/) that leverage the new Oracle JET CDN; see [here for more details](/2018/01/01/jet-via-cdn/)]
+
+[Update 14-Apr-2017:  new 3.0.0 templates for [CodePen.io](http://codepen.io/pthaden/pen/YVPLRY) and [JSFiddle](https://jsfiddle.net/pthaden/cguuot0t/)]
+
 Today I updated the code for my JSFiddle base to use Oracle JET 2.1.0. This is based on work that [Cliff Sanchez](http://cliffsanchez.com/) and [Jim Marion](http://jsjim.blogspot.com/) put together to host JET examples on public code pen sites.
 
 A while back [Jim documented the one weird trick](http://jsjim.blogspot.com/2016/04/jsfiddle-for-oracle-jet-201.html) that got JET working on JSFiddle via RawGit, which is a pseudo-CDN we can use until JET is published to a proper CDN. Also, take a [look at Cliff's work on CodePen](http://codepen.io/cliffsanchez/) in case you prefer that service.
