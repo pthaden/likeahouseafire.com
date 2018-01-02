@@ -237,6 +237,11 @@ article {
             transition:0.5s all ease;
         }
 
+        figcaption {
+            font-size:0.8em;
+            font-style: italic;
+        }
+
 
         &.zoomable {
             img {

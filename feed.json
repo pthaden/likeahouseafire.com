@@ -1,0 +1,42 @@
+---
+layout: null
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ site.inc.title | xml_escape }}",
+  "home_page_url": "{{ site.url  | absolute_url }}",
+  "feed_url": "{{ site.url  | append: "/feed.json" | absolute_url }}",
+  "author": {
+    "url": "https://twitter.com/pthaden",
+    "name": "Paul Thaden"
+  },
+  "description": {{ site.inc.byline | jsonify }},
+  "icon": "{{ "/apple-touch-icon.png" | absolute_url }}",
+  "favicon": "{{ "/favicon.ico" | absolute_url }}",
+  "expired": false,
+  "items": [
+  {% for post in site.posts limit:36 %}
+    {
+      "title": {{ post.title | jsonify }},
+      "date_published": "{{ post.date | date_to_xmlschema }}",
+      "date_modified": "{{ post.date | date_to_xmlschema }}",
+      "id": "{{  post.url | absolute_url | sha1 }}",
+      "url": "{{ site.url | append: post.url | absolute_url }}",
+      {% if post.image.size > 1 %}"image": "{{ post.image }}",{% endif %}
+      {% if post.link.size > 1 %}"external_url": "{{ post.link }}",{% endif %}
+      {% if post.banner.size > 1 %}"banner_image": "{{ post.banner }}",{% endif %}
+      {% if post.tags.size > 1 %}"tags": {{ post.tags | jsonify }},{% endif %}
+      {% if post.enclosure.size > 1 %}"attachments": [
+       {
+        "url": "{{ post.enclosure }}",
+        "mime_type": "{{ post.enclosure_type }}",
+        "size_in_bytes": "{{ post.enclosure_lenght }}"
+       },{% endif %}
+      "author": {{ post.author | jsonify }},
+      "summary": {{ post.excerpt | jsonify }},
+      "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
+      "content_html": {{ post.content | strip_newlines | jsonify }}
+    }{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+  ]
+}
